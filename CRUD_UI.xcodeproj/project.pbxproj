@@ -11,6 +11,10 @@
 		F6B01CE328B6A82600C6BE98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B01CE228B6A82600C6BE98 /* ContentView.swift */; };
 		F6B01CE528B6A82600C6BE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B01CE428B6A82600C6BE98 /* Assets.xcassets */; };
 		F6B01CE828B6A82600C6BE98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B01CE728B6A82600C6BE98 /* Preview Assets.xcassets */; };
+		F6B01CEF28B6A84100C6BE98 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B01CEE28B6A84100C6BE98 /* Models.swift */; };
+		F6B01CF128B6A93500C6BE98 /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B01CF028B6A93500C6BE98 /* ViewModels.swift */; };
+		F6B01CF528B7B87300C6BE98 /* NewPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B01CF428B7B87300C6BE98 /* NewPostView.swift */; };
+		F6B01CF728B7BEEE00C6BE98 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6B01CF628B7BEEE00C6BE98 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,11 @@
 		F6B01CE228B6A82600C6BE98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F6B01CE428B6A82600C6BE98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6B01CE728B6A82600C6BE98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6B01CEE28B6A84100C6BE98 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F6B01CF028B6A93500C6BE98 /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
+		F6B01CF428B7B87300C6BE98 /* NewPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPostView.swift; sourceTree = "<group>"; };
+		F6B01CF628B7BEEE00C6BE98 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F6B01CF828B7C62500C6BE98 /* CRUD-UI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "CRUD-UI-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,13 @@
 		F6B01CDF28B6A82600C6BE98 /* CRUD_UI */ = {
 			isa = PBXGroup;
 			children = (
+				F6B01CF828B7C62500C6BE98 /* CRUD-UI-Info.plist */,
 				F6B01CE028B6A82600C6BE98 /* CRUD_UIApp.swift */,
 				F6B01CE228B6A82600C6BE98 /* ContentView.swift */,
+				F6B01CF628B7BEEE00C6BE98 /* DetailView.swift */,
+				F6B01CF428B7B87300C6BE98 /* NewPostView.swift */,
+				F6B01CEE28B6A84100C6BE98 /* Models.swift */,
+				F6B01CF028B6A93500C6BE98 /* ViewModels.swift */,
 				F6B01CE428B6A82600C6BE98 /* Assets.xcassets */,
 				F6B01CE628B6A82600C6BE98 /* Preview Content */,
 			);
@@ -138,7 +152,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6B01CE328B6A82600C6BE98 /* ContentView.swift in Sources */,
+				F6B01CF728B7BEEE00C6BE98 /* DetailView.swift in Sources */,
+				F6B01CEF28B6A84100C6BE98 /* Models.swift in Sources */,
+				F6B01CF128B6A93500C6BE98 /* ViewModels.swift in Sources */,
 				F6B01CE128B6A82600C6BE98 /* CRUD_UIApp.swift in Sources */,
+				F6B01CF528B7B87300C6BE98 /* NewPostView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +287,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CRUD_UI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CRUD-UI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +316,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"CRUD_UI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CRUD-UI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
